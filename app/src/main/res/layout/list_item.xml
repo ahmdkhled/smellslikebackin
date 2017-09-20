@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:id="@+id/img"
+        android:scaleType="fitXY"
+        android:layout_margin="8dp"
+        android:src="@drawable/banana_bread"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt"
+        android:layout_weight="5"
+        android:text="this is a sample text just for testing"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:fontFamily="serif"
+        android:textColor="#fff"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"/>
+
+</LinearLayout>
